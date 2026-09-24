@@ -1,0 +1,24 @@
+name: FlappyPhoto
+options:
+  bundleIdPrefix: com.dennistsherpa
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  FlappyPhoto:
+    type: application
+    platform: iOS
+    sources:
+      - FlappyPhoto
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.dennistsherpa.givernyskies
+        PRODUCT_NAME: "Giverny Skies"
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "Giverny Skies"
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIStatusBarHidden: YES
+        ENABLE_PREVIEWS: YES

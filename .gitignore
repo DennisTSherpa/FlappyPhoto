@@ -1,0 +1,15 @@
+# Build output (this project builds to ./build via `xcodebuild -derivedDataPath build`)
+build/
+DerivedData/
+
+# Xcode per-user state (never worth sharing/committing)
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+
+# XcodeGen-generated project — regenerate with `xcodegen generate` from project.yml.
+# Comment this out if the team prefers to commit the generated .xcodeproj instead.
+FlappyPhoto.xcodeproj/
+
+# macOS
+.DS_Store
